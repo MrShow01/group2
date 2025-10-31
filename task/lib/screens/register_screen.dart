@@ -68,14 +68,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
       return;
     }
 
-    if (!_agreeToTerms) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Please agree to the Terms & Conditions first'),
-        ),
-      );
-      return;
-    }
+    // if (!_agreeToTerms) {
+    //   ScaffoldMessenger.of(context).showSnackBar(
+    //     const SnackBar(
+    //       content: Text('Please agree to the Terms & Conditions first'),
+    //     ),
+    //   );
+    //   return;
+    // }
 
     if (password != confirmPassword) {
       ScaffoldMessenger.of(
