@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task/screens/home_screen.dart';
+import 'package:task/screens/home/home_screen.dart';
 import 'package:task/screens/login_screen.dart';
 import 'package:task/screens/register_screen.dart';
 
